@@ -1,0 +1,24 @@
+
+.section-about{
+    
+    margin: 50px 200px;
+    height: 600px;
+    .section-about-header{
+        padding: 20px 10px;
+        font-size: 22px;
+        font-weight: 600;
+        background: rgb(168, 157, 157);
+    }
+    .section-about-content{
+        display: flex;
+        .content-left{
+            width: 650px;
+            height: 500px;
+        }
+        .content-right{
+            width: 650px;
+            height: 500px;
+            cursor: pointer;
+        }
+    }
+}

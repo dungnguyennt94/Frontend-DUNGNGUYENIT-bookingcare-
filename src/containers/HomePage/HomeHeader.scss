@@ -1,0 +1,366 @@
+.home-header-container{
+    height: 60px;
+    width: 100%;
+    padding: 0 40px;
+    position: sticky;
+    top: 0;
+    background: rgb(245, 237, 237);
+    z-index: 100;
+    
+    .home-header-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 0 40px;
+        
+        .left-content {
+            width: 20%;
+            display: flex;
+            align-items: center;
+            
+           .header-logo{
+            height: 100%;
+            width: 100%;
+            cursor: pointer;
+            transform: scale(0.5, 0.5);
+            margin-left: -70px;
+            }
+            i{
+                font-size: 25px;
+                color: grey;
+                cursor: pointer;
+                margin: 40px;
+            }
+        }
+        .center-content {
+            width: 55%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            .child-content{
+                text-align: center;
+                .sub-title{
+                    font-weight: 400;
+                    font-size: 12px;
+                    
+                }
+            }
+
+        }
+        .right-content{
+            width: 25%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .support{
+                padding-right: 50px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                i{
+                    font-size: 15px;
+                    margin-right: 5px;
+                    color: rgb(81, 81, 81);
+                }
+            }
+            .language-vi{
+                font-size: 17px;
+                font-weight: bold;
+                cursor: pointer;
+                opacity: 0.2;
+                &.action{
+                    opacity: 1;
+                    span{
+                        color: orange;
+                        
+                    }
+                    
+                }
+                
+            }
+            .language-en{
+                font-size: 17px;
+                font-weight: bold;
+                margin: 0 10px;
+                cursor: pointer;
+                opacity: 0.2;
+                &.action{
+                    opacity: 1;
+                    color: rgb(80, 90, 233);
+                }
+            }
+        }
+    }
+}
+.home-header-banner {
+    background: url('../../assets/images/nenbooking.jpg');
+        height: 1080px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+.content-up{
+    padding-top: 15px;
+    height: 50%;
+    .title1{
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 1px 1px 1px #333;
+        margin-bottom: 10px;
+        color: white;
+        margin-top: 30px;
+    }
+    .title2{
+        text-align: center;
+        font-size: 50px;
+        text-shadow: 1px 1px 1px #333;
+        color: white;
+        margin-bottom: 15px;
+    }
+    .Search{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 100px auto;
+        padding: 10px;
+        border-radius: 25px;
+        background: #f7d800;
+        i{
+            margin: 0 5px;
+        }
+        input{
+            height: 30px;
+            width: 360px;
+            background: transparent;
+            border: none;
+            outline: none;
+        }
+    }
+}
+        
+        .content-down {
+            height: 50%;
+            background-image: linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.9), rgba(255,255,255,1));
+            .Options{
+                text-align: center;
+                display: flex;
+                gap: 50px;
+                justify-content: center;
+                margin-top: 150px;
+                .option-child{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-khamchuyenkhoa{
+                        background: url(../../assets/images/iconkhamchuyenkhoa.png);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                        
+                    }
+                    .text-khamchuyenkhoa{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                        
+                    }
+                   
+                }
+                .option-child1{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-khamtuxa{
+                        background: url(../../assets/images/iconkhamtuxa.png);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-khamtuxa{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                    }
+                   
+                }
+                .option-child2{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-khamtongquat{
+                        background: url(../../assets/images/iconkhamtongquat.png);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-khamtongquat{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                    }
+                   
+                }
+                .option-child3{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-xetnghiemyhoc{
+                        background: url(../../assets/images/iconxetnghiemyhoc.png);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-xetnghiemyhoc{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                    }
+                   
+                }
+                .option-child4{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-suckhoetinhthan{
+                        background: url(../../assets/images/iconsuckhoetinhthan.png);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-suckhoetinhthan{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                    }
+                   
+                }
+                .option-child5{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-khamnhakhoa{
+                        background: url(../../assets/images/iconkhamnhakhoa.png);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-khamnhakhoa{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                    }
+                   
+                }
+                .option-child6{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-goiphauthuat{
+                        background: url(../../assets/images/icongoiphauthuat.jpg);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-goiphauthuat{
+                        font-size: 17px;
+                        font-weight: 520;
+                       
+                    }
+                   
+                }
+                .option-child7{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-sanphamyte{
+                        background: url(../../assets/images/iconsanphamyte.png);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-sanphamyte{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                    }
+                   
+                }
+                .option-child8{
+                    width: 100px;
+                    &:hover{
+                        color: #45c3d2;
+                    }
+                    cursor: pointer;
+                    .icon-suckhoedoanhnghiep{
+                        background: url(../../assets/images/iconsuckhoedoanhnghiep.jpg);
+                        height: 50px;
+                        width: 50px;
+                        padding: 10px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0 auto;
+                        color: white;
+                    }
+                    .text-suckhoedoanhnghiep{
+                        font-size: 17px;
+                        font-weight: 520;
+                        
+                    }
+                   
+                }
+            }
+        }
+
+}
